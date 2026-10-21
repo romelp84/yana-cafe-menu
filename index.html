@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f0e4">
+  <meta name="description" content="Descubre el menú de Yana Café en Otavalo, Ecuador: café, bebidas frías, batidos, postres y bocaditos.">
+  <title>Menú | Yana Café — Otavalo, Ecuador</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-ornament" aria-hidden="true"></div>
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 120 120" role="img">
+        <g fill="none" stroke="currentColor" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M60 52V10 M60 34C43 23 44 11 60 4C76 16 77 27 60 34Z"/>
+          <path d="M57 47C39 42 25 31 17 15C38 14 52 25 57 47Z"/>
+          <path d="M63 47C81 42 95 31 103 15C82 14 68 25 63 47Z"/>
+          <path d="M22 58H79L87 97Q88 105 78 108H35Q25 105 26 97Z"/>
+          <path d="M80 66H91C105 66 106 88 90 88H84"/>
+          <path d="M52 59C58 70 58 79 52 88C47 96 48 102 52 108"/>
+        </g>
+      </svg>
+    </div>
+    <p class="eyebrow">CAFÉ · SABOR · MOMENTOS</p>
+    <h1>YANA <span>CAFÉ</span></h1>
+    <div class="gold-rule"><span>✦</span></div>
+    <p class="location">OTAVALO · ECUADOR</p>
+    <p class="hero-copy">Una pausa deliciosa, hecha para disfrutar.</p>
+    <a class="scroll-cue" href="#menu">DESCUBRE EL MENÚ <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <main id="menu" class="page-shell">
+    <section class="intro">
+      <p class="eyebrow">NUESTRA CARTA</p>
+      <h2>Algo rico te espera</h2>
+      <p>Toca cualquier producto para descubrir sus ingredientes y detalles.</p>
+    </section>
+
+    <nav class="category-nav" aria-label="Categorías del menú" id="categoryNav">
+      <a href="#calientes">Calientes</a>
+      <a href="#frias">Frías</a>
+      <a href="#infusiones">Infusiones</a>
+      <a href="#batidos">Batidos</a>
+      <a href="#postres">Postres</a>
+      <a href="#bocaditos">Bocaditos</a>
+    </nav>
+
+    <div id="menuSections" class="menu-sections"></div>
+
+    <footer class="footer">
+      <div class="footer-flourish" aria-hidden="true">❧</div>
+      <p class="footer-brand">YANA CAFÉ</p>
+      <p>OTAVALO · ECUADOR</p>
+      <p class="footer-note">Gracias por compartir este momento con nosotros.</p>
+      <a class="back-top" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Volver al inicio ↑</a>
+    </footer>
+  </main>
+
+  <dialog id="productDialog" class="product-dialog" aria-labelledby="dialogName">
+    <button class="dialog-close" id="dialogClose" aria-label="Cerrar detalles">×</button>
+    <img id="dialogImage" class="dialog-image" src="" alt="">
+    <div class="dialog-content">
+      <p id="dialogCategory" class="eyebrow"></p>
+      <h2 id="dialogName"></h2>
+      <p id="dialogDescription" class="dialog-description"></p>
+      <div class="ingredient-block">
+        <h3>Ingredientes</h3>
+        <p id="dialogIngredients"></p>
+      </div>
+      <p id="dialogPrice" class="dialog-price"></p>
+      <p class="allergen-note">Consulta con nuestro equipo si necesitas información sobre alérgenos.</p>
+    </div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
