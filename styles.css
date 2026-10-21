@@ -104,13 +104,15 @@ h1 span { display: block; font-size: .36em; letter-spacing: .5em; margin: 17px 0
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8px auto 14px;
+  margin: 8px auto 20px;
+  width: 100%;
 }
 
 .brand-logo img {
   display: block;
-  width: 500px;
-  max-width: 30%;
+  width: 180px;
+  max-width: 65%;
   height: auto;
   object-fit: contain;
 }
+
