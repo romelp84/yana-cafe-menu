@@ -11,7 +11,7 @@ const MENU = [
       { name: "Espresso", price: 1.50, image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=900&q=85", description: "Un café corto, intenso y aromático.", ingredients: "Café espresso." },
       { name: "Espresso doble", price: 2.00, image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=900&q=85", description: "Doble intensidad para quienes aman el café.", ingredients: "Doble extracción de café espresso." },
       { name: "Macchiato", price: 1.75, image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85", description: "Espresso con un toque de espuma de leche.", ingredients: "Café espresso, leche espumada." },
-      { name: "Cappuccino", price: 2.25, image: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=900&q=85", description: "Equilibrio de café, leche y espuma.", ingredients: "Espresso, leche vaporizada y espuma de leche." },
+      { name: "Cappuccino", price: 2.25, image: "assets/capuccino.png", description: "Equilibrio de café, leche y espuma.", ingredients: "Espresso, leche vaporizada y espuma de leche." },
       { name: "Americano", price: 1.75, image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85", description: "Café suave y aromático en una taza amplia.", ingredients: "Espresso y agua caliente." },
       { name: "Mocaccino", price: 2.50, image: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=900&q=85", description: "Una combinación reconfortante de café y chocolate.", ingredients: "Espresso, leche y chocolate." },
       { name: "Latte", price: 2.50, image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85", description: "Espresso con abundante leche cremosa.", ingredients: "Espresso y leche vaporizada." },
@@ -25,7 +25,7 @@ const MENU = [
   {
     id: "frias", title: "Bebidas frías", subtitle: "Refrescantes en cada sorbo", icon: "❄",
     products: [
-      { name: "Iced Latte", price: 2.75, image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85", description: "Café con leche servido con hielo.", ingredients: "Espresso, leche y hielo." },
+      { name: "Iced Latte", price: 2.75, image: "assets/icedlatte.png", description: "Café con leche servido con hielo.", ingredients: "Espresso, leche y hielo." },
       { name: "Iced Caramel Latte", price: 3.00, image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85", description: "Latte frío con un toque de caramelo.", ingredients: "Espresso, leche, hielo y jarabe de caramelo." },
       { name: "Iced Matcha Latte", price: 3.25, image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85", description: "Matcha y leche en una versión refrescante.", ingredients: "Matcha, leche y hielo." },
       { name: "Matcha Frappé", price: 3.50, image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85", description: "Bebida helada de matcha, cremosa y espumosa.", ingredients: "Matcha, leche, hielo y base para frappé según receta." },
