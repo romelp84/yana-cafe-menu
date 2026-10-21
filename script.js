@@ -41,7 +41,9 @@ const MENU = [
       { name: "Hierba luisa", price: 1.50, image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85", description: "Infusión herbal de aroma cítrico.", ingredients: "Hierba luisa y agua caliente." },
       { name: "Manzanilla", price: 1.50, image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85", description: "Una infusión floral y delicada.", ingredients: "Flores de manzanilla y agua caliente." },
       { name: "Menta", price: 1.50, image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85", description: "Infusión fresca y aromática.", ingredients: "Hojas de menta y agua caliente." },
-      { name: "Frutos rojos", price: 1.75, image: "assets/infusion-frutos-rojos.jpg?auto=format&fit=crop&w=900&q=85", description: "Infusión frutal con notas dulces y ácidas.", ingredients: "Mezcla de frutos rojos deshidratados y agua caliente." },
+      
+{ name: "Frutos rojos", price: 1.75, image: "assets/infusion-frutos-rojos.jpg", description: "Infusión frutal con notas dulces y ácidas.", ingredients: "Mezcla de frutos rojos deshidratados y agua caliente." },
+
       { name: "Frutos cítricos", price: 1.75, image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85", description: "Aroma cítrico y sabor refrescante.", ingredients: "Mezcla de frutas cítricas y agua caliente." }
     ]
   },
