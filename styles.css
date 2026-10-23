@@ -125,3 +125,87 @@ h1 span { display: block; font-size: .36em; letter-spacing: .5em; margin: 17px 0
   object-fit: contain;
 }
 
+
+/* Logo animado de Yana Café */
+.logo-animado {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+}
+
+/* Halo dorado giratorio */
+.logo-animado::before {
+  content: "";
+  position: absolute;
+  inset: -9px;
+  border: 1px solid transparent;
+  border-top-color: #c7a15b;
+  border-right-color: #e5d3a7;
+  border-radius: 50%;
+  animation: giro-dorado 12s linear infinite;
+  z-index: -1;
+}
+
+/* Aro exterior suave */
+.logo-animado::after {
+  content: "";
+  position: absolute;
+  inset: -15px;
+  border: 1px solid rgba(199, 161, 91, 0.25);
+  border-radius: 50%;
+  animation: pulso-dorado 4s ease-in-out infinite;
+  z-index: -1;
+}
+
+/* Imagen del logo */
+.logo-animado img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: entrada-logo 1s ease-out both;
+  filter: drop-shadow(0 3px 8px rgba(91, 64, 31, 0.15));
+}
+
+@keyframes giro-dorado {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulso-dorado {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.45;
+  }
+  50% {
+    transform: scale(1.06);
+    opacity: 0.9;
+  }
+}
+
+@keyframes entrada-logo {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Respetar la preferencia de movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  .logo-animado::before,
+  .logo-animado::after,
+  .logo-animado img {
+    animation: none;
+  }
+}
+
+
