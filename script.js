@@ -7,7 +7,7 @@ const MENU = [
   {name:"Americano",price:1.75,image:"https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",description:"Café suave y aromático.",ingredients:"Espresso y agua caliente."},
   {name:"Mocaccino",price:2.50,image:"https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=900&q=85",description:"Una combinación reconfortante de café y chocolate.",ingredients:"Espresso, leche y chocolate."},
   {name:"Latte",image:"https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85",description:"Espresso con leche cremosa. Escoge tu sabor favorito.",variants:[
-   {name:"Regular",price:2.50,ingredients:"Espresso y leche vaporizada."},{name:"Vainilla",price:2.75,ingredients:"Espresso, leche vaporizada y jarabe de vainilla."},{name:"Caramelo",price:2.75,ingredients:"Espresso, leche vaporizada y jarabe de caramelo."}]},
+   {name:"Regular",price:2.50,image:"https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85",ingredients:"Espresso y leche vaporizada."},{name:"Vainilla",price:2.75,image:"https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=900&q=85",ingredients:"Espresso, leche vaporizada y jarabe de vainilla."},{name:"Caramelo",price:2.75,image:"https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85",ingredients:"Espresso, leche vaporizada y jarabe de caramelo."}]},
   {name:"Flat White",price:2.50,image:"https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=900&q=85",description:"Café con leche de textura sedosa.",ingredients:"Espresso doble y leche microespumada."},
   {name:"Caramel Latte",price:2.75,image:"https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85",description:"Latte cremoso con notas dulces de caramelo.",ingredients:"Espresso, leche y jarabe de caramelo."},
   {name:"Chocolate caliente",price:2.50,image:"https://images.unsplash.com/photo-1542990253-0b8be8e4a1e8?auto=format&fit=crop&w=900&q=85",description:"Chocolate caliente, dulce y reconfortante.",ingredients:"Leche y chocolate."},
@@ -15,7 +15,7 @@ const MENU = [
  ]},
  {id:"frias",title:"Bebidas frías",subtitle:"Refrescantes en cada sorbo",icon:"❄",products:[
   {name:"Iced Latte",image:"assets/icedlatte.png",description:"Espresso con leche y hielo. Escoge tu sabor favorito.",variants:[
-   {name:"Regular",price:2.75,ingredients:"Espresso, leche y hielo."},{name:"Vainilla",price:3,ingredients:"Espresso, leche, hielo y jarabe de vainilla."},{name:"Caramelo",price:3,ingredients:"Espresso, leche, hielo y jarabe de caramelo."}]},
+   {name:"Regular",price:2.75,image:"assets/icedlatte.png",ingredients:"Espresso, leche y hielo."},{name:"Vainilla",price:3,image:"https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85",ingredients:"Espresso, leche, hielo y jarabe de vainilla."},{name:"Caramelo",price:3,image:"https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85",ingredients:"Espresso, leche, hielo y jarabe de caramelo."}]},
   {name:"Iced Matcha Latte",price:3.25,image:"https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85",description:"Matcha y leche en una versión refrescante.",ingredients:"Matcha, leche y hielo."},
   {name:"Matcha Frappé",price:3.50,image:"https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85",description:"Bebida helada de matcha, cremosa y espumosa.",ingredients:"Matcha, leche, hielo y base para frappé."},
   {name:"Chocolate frío",price:2.50,image:"https://images.unsplash.com/photo-1542990253-0b8be8e4a1e8?auto=format&fit=crop&w=900&q=85",description:"Chocolate servido frío.",ingredients:"Leche, chocolate y hielo."},
@@ -127,6 +127,16 @@ function showProduct(sectionId,index){
 }
 
 function updateDetails(){
+ const image=document.getElementById("dialogImage");
+ if(activeVariant && activeVariant.image){
+  image.src=activeVariant.image;
+  image.onerror=function(){this.onerror=null;this.src="assets/placeholder.svg";};
+  image.alt=activeProduct.name+" "+activeVariant.name;
+ }else{
+  image.src=activeProduct.image;
+  image.onerror=function(){this.onerror=null;this.src="assets/placeholder.svg";};
+  image.alt=activeProduct.name;
+ }
  document.getElementById("dialogIngredients").textContent=activeVariant?activeVariant.ingredients:activeProduct.ingredients;
  document.getElementById("dialogPrice").textContent=money(activeVariant?activeVariant.price:activeProduct.price);
 }
