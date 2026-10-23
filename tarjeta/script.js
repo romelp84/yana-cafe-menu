@@ -1,14 +1,14 @@
 /*
   CONFIGURACIÓN DE YANA CAFÉ
-  Edita los enlaces de abajo con tus perfiles reales.
+  Instagram, Facebook y Google Maps ya están configurados.
   Si dejas un campo vacío, ese botón no se mostrará en la tarjeta.
 */
 const YANA_LINKS = {
-  instagram: "", // Ejemplo: https://www.instagram.com/tuusuario/
-  facebook: "",  // Ejemplo: https://www.facebook.com/tuPagina/
+  instagram: "https://www.instagram.com/yanacafe.ec/",
+  facebook: "https://www.facebook.com/yanacafe.ec/",
   tiktok: "",    // Ejemplo: https://www.tiktok.com/@tuusuario
   whatsapp: "",  // Solo números con código de país. Ejemplo Ecuador: 593XXXXXXXXX
-  maps: "https://www.google.com/maps/search/?api=1&query=Yana+Caf%C3%A9+Otavalo+Ecuador"
+  maps: "https://maps.app.goo.gl/qVNasMtMYssHwv9LA"
 };
 
 const links = document.querySelectorAll("[data-link]");
