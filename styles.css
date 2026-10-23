@@ -99,6 +99,14 @@ h1 span { display: block; font-size: .36em; letter-spacing: .5em; margin: 17px 0
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
 
+/* Opciones para productos con variantes, por ejemplo Latte e Iced Latte */
+.variant-hint { margin: 7px 0 0; font-size: .65rem; color: var(--gold); font-weight: 600; }
+.variant-block { margin: 18px 0; }
+.variant-block h3 { font-size: 1.35rem; margin: 0 0 10px; }
+.variant-options { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.variant-option { display:flex; justify-content:space-between; align-items:center; gap:12px; width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:10px; background:transparent; color:var(--ink); font:inherit; cursor:pointer; text-align:left; }
+.variant-option strong { color:var(--gold); white-space:nowrap; }
+.variant-option.is-selected { border-color:var(--gold); background:rgba(168,123,62,.09); box-shadow:inset 0 0 0 1px var(--gold); }
 
 
 .brand-logo {
