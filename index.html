@@ -4,56 +4,62 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f0e4">
-  <meta name="description" content="Menú de Yana Café en Otavalo, Ecuador.">
-  <title>Menú | Yana Café — Otavalo, Ecuador</title>
+  <meta name="description" content="Menú de Yana Café en Otavalo, Ecuador." data-i18n-content="metaDescription">
+  <title data-i18n-title="pageTitle">Menú | Yana Café — Otavalo, Ecuador</title>
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-bilingual.css">
 </head>
 <body id="top">
   <header class="hero">
+    <div class="language-switch" role="group" aria-label="Language / Idioma">
+      <button type="button" class="language-button is-active" data-language="es" aria-pressed="true">ES</button>
+      <span aria-hidden="true">|</span>
+      <button type="button" class="language-button" data-language="en" aria-pressed="false">EN</button>
+    </div>
    <div class="logo-animado">
   <img src="assets/logo1.png" alt="Yana Café">
 </div>
           <div class="ornament" aria-hidden="true">
   <span></span>✦<span></span>
 </div>
-<p class="eyebrow">Café que se disfruta,</p>
-      <p class="hero-copy">momentos que se quedan.</p>
+<p class="eyebrow" data-i18n="tagline1">Café que se disfruta,</p>
+      <p class="hero-copy" data-i18n="tagline2">momentos que se quedan.</p>
     <div class="gold-rule"><span>✦</span></div>
     <p class="location">OTAVALO · ECUADOR</p>
-    <a class="scroll-cue" href="#menu">DESCUBRE EL MENÚ <span aria-hidden="true">↓</span></a>
+    <a class="scroll-cue" href="#menu"><span data-i18n="discover">DESCUBRE EL MENÚ</span> <span aria-hidden="true">↓</span></a>
   </header>
   <main id="menu" class="page-shell">
     <section class="intro">
-      <p class="eyebrow">NUESTRA CARTA</p>
-      <h2>Algo rico te espera</h2>
-      <p>Toca cualquier producto para descubrir sus ingredientes y detalles.</p>
+      <p class="eyebrow" data-i18n="menuEyebrow">NUESTRA CARTA</p>
+      <h2 data-i18n="introTitle">Algo rico te espera</h2>
+      <p data-i18n="introDescription">Toca cualquier producto para descubrir sus ingredientes y detalles.</p>
     </section>
-    <nav class="category-nav" aria-label="Categorías del menú" id="categoryNav">
-      <a href="#calientes">Calientes</a><a href="#frias">Frías</a>
-      <a href="#infusiones">Infusiones</a><a href="#batidos">Batidos</a>
-      <a href="#jugos">Jugos</a><a href="#postres">Postres</a><a href="#sanduches">Sánduches</a>
+    <nav class="category-nav" aria-label="Categorías del menú" id="categoryNav" data-i18n-aria="categoryNav">
+      <a href="#calientes" data-i18n="catHot">Calientes</a><a href="#frias" data-i18n="catCold">Frías</a>
+      <a href="#infusiones" data-i18n="catInfusions">Infusiones</a><a href="#batidos" data-i18n="catSmoothies">Batidos</a>
+      <a href="#jugos" data-i18n="catJuices">Jugos</a><a href="#postres" data-i18n="catDesserts">Postres</a><a href="#sanduches" data-i18n="catSandwiches">Sánduches</a>
     </nav>
     <div id="menuSections" class="menu-sections"></div>
     <footer class="footer">
       <div class="footer-flourish" aria-hidden="true">❧</div>
       <p class="footer-brand">YANA CAFÉ</p><p>OTAVALO · ECUADOR</p>
-      <p class="footer-note">Gracias por compartir este momento con nosotros.</p>
-      <a class="back-top" href="#top">Volver al inicio ↑</a>
+      <p class="footer-note" data-i18n="footerNote">Gracias por compartir este momento con nosotros.</p>
+      <a class="back-top" href="#top"><span data-i18n="backTop">Volver al inicio</span> ↑</a>
     </footer>
   </main>
   <dialog id="productDialog" class="product-dialog" aria-labelledby="dialogName">
-    <button class="dialog-close" id="dialogClose" aria-label="Cerrar detalles">×</button>
+    <button class="dialog-close" id="dialogClose" aria-label="Cerrar detalles" data-i18n-aria="closeDetails">×</button>
     <img id="dialogImage" class="dialog-image" src="" alt="">
     <div class="dialog-content">
       <p id="dialogCategory" class="eyebrow"></p><h2 id="dialogName"></h2>
       <p id="dialogDescription" class="dialog-description"></p>
       <div id="variantBlock" class="variant-block" hidden>
-        <h3>Elige tu opción</h3><div id="variantOptions" class="variant-options"></div>
+        <h3 data-i18n="chooseOption">Elige tu opción</h3><div id="variantOptions" class="variant-options"></div>
       </div>
-      <div class="ingredient-block"><h3>Ingredientes</h3><p id="dialogIngredients"></p></div>
+      <div class="ingredient-block"><h3 data-i18n="ingredients">Ingredientes</h3><p id="dialogIngredients"></p></div>
       <p id="dialogPrice" class="dialog-price"></p>
-      <p class="allergen-note">Consulta con nuestro equipo si necesitas información sobre alérgenos.</p>
+      <p class="allergen-note" data-i18n="allergenNote">Consulta con nuestro equipo si necesitas información sobre alérgenos.</p>
     </div>
   </dialog>
   <script src="script.js"></script>
