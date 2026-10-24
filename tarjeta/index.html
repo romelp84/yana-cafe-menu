@@ -107,6 +107,18 @@
     </section>
     <footer class="page-footer">YANA CAFÉ <span>·</span> OTAVALO, ECUADOR</footer>
   </main>
-  <script src="script.js"></script>
+<script src="script.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(
+      '#socialLinks a[data-link="google-reviews"], #socialLinks a[data-link="tripadvisor-reviews"]'
+    ).forEach(function (boton) {
+      boton.hidden = false;
+      boton.style.display = "flex";
+      boton.style.visibility = "visible";
+    });
+  });
+</script>
 </body>
 </html>
