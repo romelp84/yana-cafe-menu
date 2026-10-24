@@ -571,3 +571,10 @@ a[data-link="google-reviews"],
 a[data-link="tripadvisor-reviews"] {
   display: flex;
 }
+/* Mostrar siempre los botones de reseñas */
+#socialLinks a[data-link="google-reviews"],
+#socialLinks a[data-link="tripadvisor-reviews"] {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
