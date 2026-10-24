@@ -566,3 +566,8 @@ h1 span {
   height: 1px;
   background: var(--gold-light);
 }
+/* Mantener visibles los botones de reseñas */
+a[data-link="google-reviews"],
+a[data-link="tripadvisor-reviews"] {
+  display: flex;
+}
