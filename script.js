@@ -10,68 +10,77 @@ const MENU = [
         "name": "Espresso",
         "price": 1.5,
         "description": "Un café corto, intenso y aromático.",
-        "ingredients": "Café espresso."
+        "ingredients": "Café espresso.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Espresso doble",
         "price": 1.75,
         "description": "Doble intensidad para quienes aman el café.",
-        "ingredients": "Doble extracción de café espresso."
+        "ingredients": "Doble extracción de café espresso.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
-        "name": "Cappuccino 6 oz",
+        "name": "Cappuccino 6oz",
         "price": 2.5,
-        "description": "Equilibrio de café, leche y espuma.",
-        "ingredients": "Espresso, leche vaporizada y espuma de leche."
+        "description": "Espresso con leche vaporizada y espuma.",
+        "ingredients": "Espresso, leche vaporizada y espuma de leche.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
-        "name": "Cappuccino 9 oz",
+        "name": "Cappuccino 9oz",
         "price": 3.25,
-        "description": "Un cappuccino más grande, cremoso y aromático.",
-        "ingredients": "Espresso, leche vaporizada y espuma de leche."
+        "description": "Un cappuccino más grande y cremoso.",
+        "ingredients": "Espresso, leche vaporizada y espuma de leche.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Americano",
         "price": 1.75,
         "description": "Café suave y aromático.",
-        "ingredients": "Espresso y agua caliente."
+        "ingredients": "Espresso y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Mocaccino",
         "price": 2.75,
-        "description": "Una combinación reconfortante de café y chocolate.",
-        "ingredients": "Espresso, leche y chocolate."
+        "description": "Una combinación de café y chocolate.",
+        "ingredients": "Espresso, leche y chocolate.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Latte",
-        "price": 2.5,
-        "description": "Espresso con leche cremosa.",
-        "ingredients": "Espresso y leche vaporizada."
-      },
-      {
-        "name": "Latte saborizado",
-        "price": 2.75,
-        "description": "Escoge entre vainilla, caramelo, caramelo salado o avellana.",
-        "ingredients": "Espresso, leche vaporizada y el jarabe de tu elección.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
+        "description": "Espresso con leche cremosa. Escoge tu sabor favorito.",
         "variants": [
+          {
+            "name": "Regular",
+            "price": 2.5,
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
+            "ingredients": "Espresso y leche vaporizada."
+          },
           {
             "name": "Vainilla",
             "price": 2.75,
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche vaporizada y jarabe de vainilla."
           },
           {
             "name": "Caramelo",
             "price": 2.75,
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche vaporizada y jarabe de caramelo."
           },
           {
             "name": "Caramelo salado",
             "price": 2.75,
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche vaporizada y jarabe de caramelo salado."
           },
           {
             "name": "Avellana",
             "price": 2.75,
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche vaporizada y jarabe de avellana."
           }
         ]
@@ -80,19 +89,22 @@ const MENU = [
         "name": "Flat White",
         "price": 2.5,
         "description": "Café con leche de textura sedosa.",
-        "ingredients": "Espresso doble y leche microespumada."
+        "ingredients": "Espresso doble y leche microespumada.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Chocolate caliente",
         "price": 2.5,
         "description": "Chocolate caliente, dulce y reconfortante.",
-        "ingredients": "Leche y chocolate."
+        "ingredients": "Leche y chocolate.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Matcha",
         "price": 2.75,
         "description": "Té verde de sabor vegetal y delicado.",
-        "ingredients": "Matcha y agua o leche, según preparación."
+        "ingredients": "Matcha y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
@@ -100,39 +112,41 @@ const MENU = [
     "id": "frias",
     "title": "Bebidas frías",
     "subtitle": "Refrescantes en cada sorbo",
-    "icon": "❄️",
+    "icon": "🧊",
     "products": [
       {
         "name": "Iced Latte",
-        "price": 3,
-        "description": "Espresso con leche y hielo.",
-        "ingredients": "Espresso, leche y hielo.",
-        "image: "assets/iced-latte.png"
-      },
-      {
-        "name": "Iced Latte saborizado",
-        "price": 3.25,
-        "description": "Vainilla, caramelo, caramelo salado o avellana.",
-        "ingredients": "Espresso, leche, hielo y jarabe de tu elección.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "description": "Espresso con leche y hielo. Escoge tu sabor favorito.",
         "variants": [
+          {
+            "name": "Regular",
+            "price": 3.0,
+            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+            "ingredients": "Espresso, leche y hielo."
+          },
           {
             "name": "Vainilla",
             "price": 3.25,
+            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche, hielo y jarabe de vainilla."
           },
           {
             "name": "Caramelo",
             "price": 3.25,
+            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche, hielo y jarabe de caramelo."
           },
           {
             "name": "Caramelo salado",
             "price": 3.25,
+            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche, hielo y jarabe de caramelo salado."
           },
           {
             "name": "Avellana",
             "price": 3.25,
+            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
             "ingredients": "Espresso, leche, hielo y jarabe de avellana."
           }
         ]
@@ -141,37 +155,43 @@ const MENU = [
         "name": "Iced Matcha Latte",
         "price": 3.25,
         "description": "Matcha y leche en una versión refrescante.",
-        "ingredients": "Matcha, leche y hielo."
+        "ingredients": "Matcha, leche y hielo.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Matcha Frappé",
         "price": 3.25,
         "description": "Bebida helada de matcha, cremosa y espumosa.",
-        "ingredients": "Matcha, leche y hielo."
+        "ingredients": "Matcha, leche, hielo y base para frappé.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Chocolate frío",
         "price": 2.75,
         "description": "Chocolate servido frío.",
-        "ingredients": "Leche, chocolate y hielo."
+        "ingredients": "Leche, chocolate y hielo.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Limonada de café",
-        "price": 3,
+        "price": 3.0,
         "description": "Una mezcla cítrica y original con café.",
-        "ingredients": "Café, limón, agua y azúcar."
+        "ingredients": "Café, limón, agua y azúcar.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Café de naranja",
         "price": 3.25,
         "description": "Café con notas frescas de naranja.",
-        "ingredients": "Café y naranja."
+        "ingredients": "Café y naranja.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Morir soñando",
         "price": 3.25,
         "description": "Bebida cremosa y cítrica.",
-        "ingredients": "Jugo de naranja, leche y azúcar."
+        "ingredients": "Jugo de naranja, leche y azúcar.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
@@ -185,43 +205,49 @@ const MENU = [
         "name": "Hierba luisa",
         "price": 1.75,
         "description": "Infusión herbal de aroma cítrico.",
-        "ingredients": "Hierba luisa y agua caliente."
+        "ingredients": "Hierba luisa y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Manzanilla",
         "price": 1.75,
         "description": "Infusión floral y delicada.",
-        "ingredients": "Flores de manzanilla y agua caliente."
+        "ingredients": "Flores de manzanilla y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Cedrón",
         "price": 1.75,
         "description": "Infusión herbal de aroma fresco.",
-        "ingredients": "Hojas de cedrón y agua caliente."
+        "ingredients": "Hojas de cedrón y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Frutos rojos",
         "price": 2.25,
         "description": "Infusión frutal con notas dulces y ácidas.",
-        "ingredients": "Mezcla de frutos rojos y agua caliente."
+        "ingredients": "Mezcla de frutos rojos y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Frutos cítricos",
         "price": 2.25,
         "description": "Aroma cítrico y sabor refrescante.",
-        "ingredients": "Mezcla de frutas cítricas y agua caliente."
+        "ingredients": "Mezcla de frutas cítricas y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Frutos tropicales",
         "price": 2.25,
         "description": "Infusión aromática de perfil tropical.",
-        "ingredients": "Mezcla de frutas tropicales y agua caliente."
+        "ingredients": "Mezcla de frutas tropicales y agua caliente.",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
   {
     "id": "sanduches",
-    "title": "Sánduches",
+    "title": "Sanduches",
     "subtitle": "Preparados para disfrutar a cualquier hora",
     "icon": "🥪",
     "products": [
@@ -229,25 +255,29 @@ const MENU = [
         "name": "Tostada de queso",
         "price": 2.25,
         "description": "Pan tostado con queso fundido.",
-        "ingredients": "Pan y queso."
+        "ingredients": "Pan y queso.",
+        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Tostada mixta",
         "price": 2.5,
         "description": "Un clásico de jamón y queso.",
-        "ingredients": "Pan, jamón y queso."
+        "ingredients": "Pan, jamón y queso.",
+        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85"
       },
       {
-        "name": "Sánduche de pollo",
-        "price": 3,
-        "description": "Sánduche relleno de pollo.",
-        "ingredients": "Pan, pollo y aderezos."
+        "name": "Sanduche de pollo",
+        "price": 3.0,
+        "description": "Sanduche relleno de pollo.",
+        "ingredients": "Pan, pollo cocido y aderezos según receta.",
+        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85"
       },
       {
-        "name": "Sánduche de jamón de pavo",
+        "name": "Sanduche de jamón de pavo",
         "price": 3.25,
-        "description": "Sánduche con jamón de pavo.",
-        "ingredients": "Pan, jamón de pavo y aderezos."
+        "description": "Sanduche de pavo.",
+        "ingredients": "Pan, jamón de pavo y aderezos según receta.",
+        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
@@ -259,51 +289,59 @@ const MENU = [
     "products": [
       {
         "name": "Cheesecake de frutos rojos",
-        "price": 3,
+        "price": 3.0,
         "description": "Cheesecake cremoso con frutos rojos.",
-        "ingredients": "Queso crema, azúcar, huevos, galleta, mantequilla y frutos rojos."
+        "ingredients": "Queso crema, azúcar, huevos, galleta, mantequilla y frutos rojos.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Cheesecake de maracuyá",
-        "price": 3,
+        "price": 3.0,
         "description": "Cheesecake con un toque tropical de maracuyá.",
-        "ingredients": "Queso crema, azúcar, huevos, galleta, mantequilla y maracuyá."
+        "ingredients": "Queso crema, azúcar, huevos, galleta, mantequilla y maracuyá.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Torta del día",
         "price": 2.75,
-        "description": "Una porción de nuestra torta del día.",
-        "ingredients": "Consulta con nuestro equipo la variedad disponible."
+        "description": "Pregunta por la torta disponible del día.",
+        "ingredients": "Ingredientes según la preparación del día.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Pie",
-        "price": 3,
-        "description": "Una porción de pie dulce.",
-        "ingredients": "Consulta con nuestro equipo el sabor disponible."
+        "price": 3.0,
+        "description": "Pie horneado con cubierta dorada.",
+        "ingredients": "Ingredientes según el sabor disponible.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Empanadas (manjar, mora)",
-        "price": 2,
+        "price": 2.0,
         "description": "Empanadas dulces con relleno a elección.",
-        "ingredients": "Masa y relleno de manjar o mora."
+        "ingredients": "Masa y relleno de manjar o mora.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Quimbolitos",
         "price": 1.25,
-        "description": "Tradicional quimbolito suave y esponjoso.",
-        "ingredients": "Preparación tradicional a base de harina, huevos y otros ingredientes."
+        "description": "Bizcocho tradicional ecuatoriano cocido al vapor.",
+        "ingredients": "Ingredientes según receta.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Rollos de canela",
         "price": 3.5,
         "description": "Rollo suave con canela y glaseado.",
-        "ingredients": "Masa dulce, canela, azúcar y glaseado."
+        "ingredients": "Harina, canela, azúcar, mantequilla y glaseado.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Torta de choclo",
         "price": 2.75,
-        "description": "Torta tradicional a base de choclo.",
-        "ingredients": "Choclo y otros ingredientes según receta."
+        "description": "Preparación tradicional a base de choclo.",
+        "ingredients": "Choclo e ingredientes según receta.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
@@ -317,31 +355,36 @@ const MENU = [
         "name": "Fresa",
         "price": 2.5,
         "description": "Batido de fresa preparado al momento.",
-        "ingredients": "Fresas, leche o agua y endulzante opcional."
+        "ingredients": "Fresas, leche o agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Mora",
         "price": 2.5,
         "description": "Batido frutal de mora.",
-        "ingredients": "Mora, leche o agua y endulzante opcional."
+        "ingredients": "Mora, leche o agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Naranjilla",
         "price": 2.5,
         "description": "Sabor tropical ecuatoriano.",
-        "ingredients": "Pulpa de naranjilla, agua o leche y endulzante opcional."
+        "ingredients": "Pulpa de naranjilla, agua o leche y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Tomate de árbol",
         "price": 2.5,
         "description": "Batido de tomate de árbol.",
-        "ingredients": "Tomate de árbol, agua o leche y endulzante opcional."
+        "ingredients": "Tomate de árbol, agua o leche y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Frutos rojos",
         "price": 2.5,
         "description": "Batido frutal de frutos rojos.",
-        "ingredients": "Frutos rojos, leche o agua y endulzante opcional."
+        "ingredients": "Frutos rojos, leche o agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
@@ -349,125 +392,167 @@ const MENU = [
     "id": "jugos",
     "title": "Jugos naturales",
     "subtitle": "Fruta fresca, sabor natural",
-    "icon": "🍊",
+    "icon": "🍹",
     "products": [
       {
         "name": "Fresa",
-        "price": 2,
+        "price": 2.0,
         "description": "Jugo natural de fresa.",
-        "ingredients": "Fresas, agua y endulzante opcional."
+        "ingredients": "Fresas, agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Mora",
-        "price": 2,
+        "price": 2.0,
         "description": "Jugo natural de mora.",
-        "ingredients": "Mora, agua y endulzante opcional."
+        "ingredients": "Mora, agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Naranjilla",
-        "price": 2,
+        "price": 2.0,
         "description": "Jugo de naranjilla, fresco y ligeramente ácido.",
-        "ingredients": "Pulpa de naranjilla, agua y endulzante opcional."
+        "ingredients": "Pulpa de naranjilla, agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Tomate de árbol",
-        "price": 2,
+        "price": 2.0,
         "description": "Jugo natural de tomate de árbol.",
-        "ingredients": "Tomate de árbol, agua y endulzante opcional."
+        "ingredients": "Tomate de árbol, agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Mango",
-        "price": 2,
+        "price": 2.0,
         "description": "Jugo tropical de mango.",
-        "ingredients": "Mango, agua y endulzante opcional."
+        "ingredients": "Mango, agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Guanábana",
-        "price": 2,
+        "price": 2.0,
         "description": "Jugo suave de guanábana.",
-        "ingredients": "Pulpa de guanábana, agua y endulzante opcional."
+        "ingredients": "Pulpa de guanábana, agua y endulzante opcional.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
   {
     "id": "bocaditos",
     "title": "Bocaditos salados",
-    "subtitle": "Algo delicioso para acompañar tu bebida",
+    "subtitle": "Pequeños antojos para acompañar tu café",
     "icon": "🥧",
     "products": [
       {
         "name": "Quiche de jamón y queso",
-        "price": 3,
-        "description": "Quiche salado con jamón y queso.",
-        "ingredients": "Masa, huevo, jamón y queso."
+        "price": 3.0,
+        "description": "Quiche horneado con jamón y queso.",
+        "ingredients": "Huevo, leche, queso, jamón y masa.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Muffin de queso",
         "price": 1.75,
         "description": "Muffin salado de queso.",
-        "ingredients": "Harina, queso y otros ingredientes según receta."
+        "ingredients": "Harina, queso, huevo, leche y mantequilla.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Empanada de pollo",
         "price": 2.25,
         "description": "Empanada rellena de pollo.",
-        "ingredients": "Masa y relleno de pollo."
+        "ingredients": "Masa y pollo sazonado.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Humitas",
         "price": 1.25,
-        "description": "Preparación tradicional de choclo.",
-        "ingredients": "Choclo y otros ingredientes según receta."
+        "description": "Preparación tradicional a base de choclo.",
+        "ingredients": "Choclo y otros ingredientes según receta.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Torta de choclo",
         "price": 2.75,
-        "description": "Torta tradicional a base de choclo.",
-        "ingredients": "Choclo y otros ingredientes según receta."
+        "description": "Preparación tradicional a base de choclo.",
+        "ingredients": "Choclo e ingredientes según receta.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85"
       }
     ]
   },
   {
     "id": "soft",
     "title": "Bebidas soft",
-    "subtitle": "Bebidas para refrescarte",
+    "subtitle": "Opciones refrescantes",
     "icon": "🥤",
     "products": [
       {
         "name": "Agua mineral",
         "price": 1.25,
-        "description": "Agua mineral refrescante.",
-        "ingredients": "Agua mineral."
+        "description": "Agua mineral para refrescarte.",
+        "ingredients": "Agua mineral.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Gaseosas",
-        "price": 1,
-        "description": "Bebida gaseosa fría.",
-        "ingredients": "Consulta las opciones disponibles."
+        "price": 1.0,
+        "description": "Pregunta por las opciones disponibles.",
+        "ingredients": "Gaseosa según disponibilidad.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Té helado",
         "price": 1.5,
-        "description": "Té servido frío.",
-        "ingredients": "Té, agua, hielo y endulzante."
+        "description": "Té frío y refrescante.",
+        "ingredients": "Té, agua, hielo y endulzante.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
         "name": "Limonada (limón)",
         "price": 1.25,
-        "description": "Limonada fresca de limón.",
-        "ingredients": "Limón, agua y azúcar."
+        "description": "Limonada fresca preparada al momento.",
+        "ingredients": "Limón, agua y azúcar.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       },
       {
-        "name": "Benefit (limón + gengibre, limonada + café)",
+        "name": "Benefit",
         "price": 2.75,
-        "description": "Dos opciones refrescantes para elegir.",
-        "ingredients": "Limón y jengibre, o limonada con café."
+        "description": "Elige limón con jengibre o limonada con café.",
+        "ingredients": "Limón, jengibre y/o café según la opción.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
       }
     ]
   }
 ];
 
 const TRANSLATIONS = {
+"  Caramelo salado": "Salted caramel",
+  "Avellana": "Hazelnut",
+  "Cappuccino 6oz": "6 oz Cappuccino",
+  "Cappuccino 9oz": "9 oz Cappuccino",
+  "Tostada de queso": "Cheese toastie",
+  "Tostada mixta": "Ham and cheese toastie",
+  "Sanduche de pollo": "Chicken sandwich",
+  "Sanduche de jamón de pavo": "Turkey ham sandwich",
+  "Torta del día": "Cake of the day",
+  "Pie": "Pie",
+  "Empanadas (manjar, mora)": "Empanadas (dulce de leche, blackberry)",
+  "Quimbolitos": "Quimbolitos (Ecuadorian steamed cake)",
+  "Rollos de canela": "Cinnamon rolls",
+  "Quiche de jamón y queso": "Ham and cheese quiche",
+  "Muffin de queso": "Cheese muffin",
+  "Empanada de pollo": "Chicken empanada",
+  "Humitas": "Humitas (Ecuadorian corn cakes)",
+  "Agua mineral": "Mineral water",
+  "Gaseosas": "Soft drinks",
+  "Té helado": "Iced tea",
+  "Limonada (limón)": "Lemonade",
+  "Bocaditos salados": "Savory bites",
+  "Bebidas soft": "Soft drinks",
+  "Pequeños antojos para acompañar tu café": "Small bites to enjoy with your coffee",
+  "Opciones refrescantes": "Refreshing options",
+
   "Café que se disfruta,": "Coffee to savor,",
   "momentos que se quedan.": "moments to remember.",
   "DESCUBRE EL MENÚ": "EXPLORE THE MENU",
