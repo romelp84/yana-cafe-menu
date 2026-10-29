@@ -90,7 +90,7 @@ const MENU = [
         "price": 2.5,
         "description": "Café con leche de textura sedosa.",
         "ingredients": "Espresso doble y leche microespumada.",
-        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/flatwhite.PNG"
       },
       {
         "name": "Chocolate caliente",
