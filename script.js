@@ -46,7 +46,7 @@ const MENU = [
         "price": 2.75,
         "description": "Una combinación de café y chocolate.",
         "ingredients": "Espresso, leche y chocolate.",
-        "image": "./assets/mochacchino.PNG"
+        "image": "./assets/mochaccino.PNG"
       },
       {
         "name": "Latte",
