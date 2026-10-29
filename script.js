@@ -107,6 +107,7 @@ const MENU = [
         "price": 3,
         "description": "Espresso con leche y hielo.",
         "ingredients": "Espresso, leche y hielo."
+        "image: "assets/iced-latte.png"
       },
       {
         "name": "Iced Latte saborizado",
