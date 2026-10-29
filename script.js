@@ -11,42 +11,42 @@ const MENU = [
         "price": 1.5,
         "description": "Un café corto, intenso y aromático.",
         "ingredients": "Café espresso.",
-        "image": "./assets/espresso.PNG"
+        "image": "./assets/espresso.webp"
       },
       {
         "name": "Espresso doble",
         "price": 1.75,
         "description": "Doble intensidad para quienes aman el café.",
         "ingredients": "Doble extracción de café espresso.",
-        "image": "./assets/espressodoble.PNG"
+        "image": "./assets/espressodoble.webp"
       },
       {
         "name": "Cappuccino 6oz",
         "price": 2.5,
         "description": "Espresso con leche vaporizada y espuma.",
         "ingredients": "Espresso, leche vaporizada y espuma de leche.",
-        "image": "./assets/capuccino6.PNG"
+        "image": "./assets/capuccino6.webp"
       },
       {
         "name": "Cappuccino 9oz",
         "price": 3.25,
         "description": "Un cappuccino más grande y cremoso.",
         "ingredients": "Espresso, leche vaporizada y espuma de leche.",
-        "image": "./assets/capuccino9.PNG"
+        "image": "./assets/capuccino9.webp"
       },
       {
         "name": "Americano",
         "price": 1.75,
         "description": "Café suave y aromático.",
         "ingredients": "Espresso y agua caliente.",
-        "image": "./assets/americano.PNG"
+        "image": "./assets/americano.webp"
       },
       {
         "name": "Mocaccino",
         "price": 2.75,
         "description": "Una combinación de café y chocolate.",
         "ingredients": "Espresso, leche y chocolate.",
-        "image": "./assets/mochaccino.PNG"
+        "image": "./assets/mochaccino.webp"
       },
       {
         "name": "Latte",
@@ -56,31 +56,31 @@ const MENU = [
           {
             "name": "Regular",
             "price": 2.5,
-            "image": "./assets/latte.PNG",
+            "image": "./assets/latte.webp",
             "ingredients": "Espresso y leche vaporizada."
           },
           {
             "name": "Vainilla",
             "price": 2.75,
-            "image": "./assets/latte.PNG",
+            "image": "./assets/latte.webp",
             "ingredients": "Espresso, leche vaporizada y jarabe de vainilla."
           },
           {
             "name": "Caramelo",
             "price": 2.75,
-            "image": "./assets/latte.PNG",
+            "image": "./assets/latte.webp",
             "ingredients": "Espresso, leche vaporizada y jarabe de caramelo."
           },
           {
             "name": "Caramelo salado",
             "price": 2.75,
-            "image": "./assets/latte.PNG",
+            "image": "./assets/latte.webp",
             "ingredients": "Espresso, leche vaporizada y jarabe de caramelo salado."
           },
           {
             "name": "Avellana",
             "price": 2.75,
-            "image": "./assets/latte.PNG",
+            "image": "./assets/latte.webp",
             "ingredients": "Espresso, leche vaporizada y jarabe de avellana."
           }
         ]
@@ -90,21 +90,21 @@ const MENU = [
         "price": 2.5,
         "description": "Café con leche de textura sedosa.",
         "ingredients": "Espresso doble y leche microespumada.",
-        "image": "./assets/flatwhite.PNG"
+        "image": "./assets/flatwhite.webp"
       },
       {
         "name": "Chocolate caliente",
         "price": 2.5,
         "description": "Chocolate caliente, dulce y reconfortante.",
         "ingredients": "Leche y chocolate.",
-        "image": "./assets/chocolatecaliente.PNG"
+        "image": "./assets/chocolatecaliente.webp"
       },
       {
         "name": "Matcha",
         "price": 2.75,
         "description": "Té verde de sabor vegetal y delicado.",
         "ingredients": "Matcha y agua caliente.",
-        "image": "./assets/matcha.PNG"
+        "image": "./assets/matcha.webp"
       }
     ]
   },
@@ -122,31 +122,31 @@ const MENU = [
           {
             "name": "Regular",
             "price": 3.0,
-            "image": "./assets/icedlatte.PNG",
+            "image": "./assets/icedlatte.webp",
             "ingredients": "Espresso, leche y hielo."
           },
           {
             "name": "Vainilla",
             "price": 3.25,
-            "image": "./assets/icedlatte.PNG",
+            "image": "./assets/icedlatte.webp",
             "ingredients": "Espresso, leche, hielo y jarabe de vainilla."
           },
           {
             "name": "Caramelo",
             "price": 3.25,
-            "image": "./assets/icedlatte.PNG",
+            "image": "./assets/icedlatte.webp",
             "ingredients": "Espresso, leche, hielo y jarabe de caramelo."
           },
           {
             "name": "Caramelo salado",
             "price": 3.25,
-            "image": "./assets/icedlatte.PNG",
+            "image": "./assets/icedlatte.webp",
             "ingredients": "Espresso, leche, hielo y jarabe de caramelo salado."
           },
           {
             "name": "Avellana",
             "price": 3.25,
-            "image": "./assets/icedlatte.PNG",
+            "image": "./assets/icedlatte.webp",
             "ingredients": "Espresso, leche, hielo y jarabe de avellana."
           }
         ]
@@ -156,7 +156,7 @@ const MENU = [
         "price": 3.25,
         "description": "Matcha y leche en una versión refrescante.",
         "ingredients": "Matcha, leche y hielo.",
-        "image": "./assets/icedmatcha.PNG"
+        "image": "./assets/icedmatcha.webp"
       },
       {
         "name": "Matcha Frappé",
@@ -492,42 +492,42 @@ const MENU = [
         "price": 1.00,
         "description": "Agua para refrescarte.",
         "ingredients": "Agua.",
-        "image": "./assets/agua.PNG"
+        "image": "./assets/agua.webp"
       },
       {
         "name": "Agua mineral",
         "price": 1.25,
         "description": "Agua mineral para refrescarte.",
         "ingredients": "Agua mineral.",
-        "image": "./assets/aguamineral.PNG"
+        "image": "./assets/aguamineral.webp"
       },
       {
         "name": "Gaseosas",
         "price": 1.0,
         "description": "Pregunta por las opciones disponibles.",
         "ingredients": "Gaseosa según disponibilidad.",
-        "image": "./assets/gaseosa.PNG"
+        "image": "./assets/gaseosa.webp"
       },
       {
         "name": "Té helado",
         "price": 1.5,
         "description": "Té frío y refrescante.",
         "ingredients": "Té, agua, hielo y endulzante.",
-        "image": "./assets/tehelado.PNG"
+        "image": "./assets/tehelado.webp"
       },
       {
         "name": "Limonada (limón)",
         "price": 1.25,
         "description": "Limonada fresca preparada al momento.",
         "ingredients": "Limón, agua y azúcar.",
-        "image": "./assets/limonada.PNG"
+        "image": "./assets/limonada.webp"
       },
       {
         "name": "Benefit",
         "price": 2.75,
         "description": "Elige limón con jengibre o limonada con café.",
         "ingredients": "Limón, jengibre y/o café según la opción.",
-        "image": "./assets/benefit.PNG"
+        "image": "./assets/benefit.webp"
       }
     ]
   }
