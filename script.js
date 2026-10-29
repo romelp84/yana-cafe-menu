@@ -235,6 +235,26 @@ const TRANSLATIONS = {
   "Pan, pavo y aderezos según receta.": "Bread, turkey, and condiments depending on recipe."
 };
 
+
+Object.assign(TRANSLATIONS, {
+ "Cappuccino 6 oz":"6 oz Cappuccino", "Cappuccino 9 oz":"9 oz Cappuccino",
+ "Latte saborizado":"Flavored latte", "Iced Latte saborizado":"Flavored iced latte",
+ "Caramelo salado":"Salted caramel", "Avellana":"Hazelnut", "Flat White":"Flat white",
+ "Sanduches":"Sandwiches", "Tostada de queso":"Cheese toast", "Tostada mixta":"Ham and cheese toast",
+ "Sanduche de pollo":"Chicken sandwich", "Sanduche de jamón de pavo":"Turkey ham sandwich",
+ "Torta del día":"Cake of the day", "Pie":"Pie", "Empanadas (manjar, mora)":"Empanadas (dulce de leche, blackberry)",
+ "Quimbolitos":"Quimbolitos", "Rollos de canela":"Cinnamon rolls", "Torta de choclo":"Corn cake",
+ "Bocaditos salados":"Savory bites", "Quiche de jamón y queso":"Ham and cheese quiche", "Muffin de queso":"Cheese muffin",
+ "Empanada de pollo":"Chicken empanada", "Humitas":"Humitas", "Bebidas soft":"Soft drinks",
+ "Agua mineral":"Mineral water", "Gaseosas":"Sodas", "Té helado":"Iced tea", "Limonada (limón)":"Lemonade",
+ "Benefit":"Benefit", "Limón + jengibre":"Lemon + ginger", "Limonada + café":"Coffee lemonade",
+ "Desde ":"From ", "opciones disponibles":"options available", "Ver ingredientes":"View ingredients",
+ "Foto referencial":"Reference photo", "Consulta con nuestro equipo si necesitas información sobre alérgenos.":"Ask our team if you need allergen information.",
+ "Café que se disfruta":"Coffee to savor", "Algo delicioso para acompañar tu café":"Something delicious to pair with your coffee",
+ "Sabores caseros para cualquier momento":"Homemade flavors for any moment", "Opciones para refrescarte":"Options to refresh you",
+ "Nuestra nueva bebida con notas frescas de naranja.":"Our new drink with fresh orange notes."
+});
+
 const UI_TEXT = {
   "tagline1": [
     "Café que se disfruta,",
