@@ -18,35 +18,35 @@ const MENU = [
         "price": 1.75,
         "description": "Doble intensidad para quienes aman el café.",
         "ingredients": "Doble extracción de café espresso.",
-        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/espressodoble.PNG"
       },
       {
         "name": "Cappuccino 6oz",
         "price": 2.5,
         "description": "Espresso con leche vaporizada y espuma.",
         "ingredients": "Espresso, leche vaporizada y espuma de leche.",
-        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/capuccino6.PNG"
       },
       {
         "name": "Cappuccino 9oz",
         "price": 3.25,
         "description": "Un cappuccino más grande y cremoso.",
         "ingredients": "Espresso, leche vaporizada y espuma de leche.",
-        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/capuccino9.PNG"
       },
       {
         "name": "Americano",
         "price": 1.75,
         "description": "Café suave y aromático.",
         "ingredients": "Espresso y agua caliente.",
-        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/americano.PNG"
       },
       {
         "name": "Mocaccino",
         "price": 2.75,
         "description": "Una combinación de café y chocolate.",
         "ingredients": "Espresso, leche y chocolate.",
-        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/mochacchino.PNG"
       },
       {
         "name": "Latte",
@@ -56,31 +56,31 @@ const MENU = [
           {
             "name": "Regular",
             "price": 2.5,
-            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/latte.PNG",
             "ingredients": "Espresso y leche vaporizada."
           },
           {
             "name": "Vainilla",
             "price": 2.75,
-            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/latte.PNG",
             "ingredients": "Espresso, leche vaporizada y jarabe de vainilla."
           },
           {
             "name": "Caramelo",
             "price": 2.75,
-            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/latte.PNG",
             "ingredients": "Espresso, leche vaporizada y jarabe de caramelo."
           },
           {
             "name": "Caramelo salado",
             "price": 2.75,
-            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/latte.PNG",
             "ingredients": "Espresso, leche vaporizada y jarabe de caramelo salado."
           },
           {
             "name": "Avellana",
             "price": 2.75,
-            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/latte.PNG",
             "ingredients": "Espresso, leche vaporizada y jarabe de avellana."
           }
         ]
@@ -97,14 +97,14 @@ const MENU = [
         "price": 2.5,
         "description": "Chocolate caliente, dulce y reconfortante.",
         "ingredients": "Leche y chocolate.",
-        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/chocolatecaliente.PNG"
       },
       {
         "name": "Matcha",
         "price": 2.75,
         "description": "Té verde de sabor vegetal y delicado.",
         "ingredients": "Matcha y agua caliente.",
-        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/matcha.PNG"
       }
     ]
   },
@@ -116,37 +116,37 @@ const MENU = [
     "products": [
       {
         "name": "Iced Latte",
-        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "image": "./assets/icedlatte.PNG",
         "description": "Espresso con leche y hielo. Escoge tu sabor favorito.",
         "variants": [
           {
             "name": "Regular",
             "price": 3.0,
-            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/icedlatte.PNG",
             "ingredients": "Espresso, leche y hielo."
           },
           {
             "name": "Vainilla",
             "price": 3.25,
-            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/icedlatte.PNG",
             "ingredients": "Espresso, leche, hielo y jarabe de vainilla."
           },
           {
             "name": "Caramelo",
             "price": 3.25,
-            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/icedlatte.PNG",
             "ingredients": "Espresso, leche, hielo y jarabe de caramelo."
           },
           {
             "name": "Caramelo salado",
             "price": 3.25,
-            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/icedlatte.PNG",
             "ingredients": "Espresso, leche, hielo y jarabe de caramelo salado."
           },
           {
             "name": "Avellana",
             "price": 3.25,
-            "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+            "image": "./assets/icedlatte.PNG",
             "ingredients": "Espresso, leche, hielo y jarabe de avellana."
           }
         ]
@@ -156,7 +156,7 @@ const MENU = [
         "price": 3.25,
         "description": "Matcha y leche en una versión refrescante.",
         "ingredients": "Matcha, leche y hielo.",
-        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/icedmatcha.PNG"
       },
       {
         "name": "Matcha Frappé",
@@ -227,21 +227,21 @@ const MENU = [
         "price": 2.25,
         "description": "Infusión frutal con notas dulces y ácidas.",
         "ingredients": "Mezcla de frutos rojos y agua caliente.",
-        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/infusion-frutos-rojos.PNG"
       },
       {
         "name": "Frutos cítricos",
         "price": 2.25,
         "description": "Aroma cítrico y sabor refrescante.",
         "ingredients": "Mezcla de frutas cítricas y agua caliente.",
-        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/infusion-frutos-citricos.PNG"
       },
       {
         "name": "Frutos tropicales",
         "price": 2.25,
         "description": "Infusión aromática de perfil tropical.",
         "ingredients": "Mezcla de frutas tropicales y agua caliente.",
-        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/infusion-frutos-citricos.PNG"
       }
     ]
   },
@@ -487,40 +487,47 @@ const MENU = [
     "subtitle": "Opciones refrescantes",
     "icon": "🥤",
     "products": [
+          {
+        "name": "Agua",
+        "price": 1.00,
+        "description": "Agua para refrescarte.",
+        "ingredients": "Agua.",
+        "image": "./assets/agua.PNG"
+      },
       {
         "name": "Agua mineral",
         "price": 1.25,
         "description": "Agua mineral para refrescarte.",
         "ingredients": "Agua mineral.",
-        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/aguamineral.PNG"
       },
       {
         "name": "Gaseosas",
         "price": 1.0,
         "description": "Pregunta por las opciones disponibles.",
         "ingredients": "Gaseosa según disponibilidad.",
-        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/gaseosa.PNG"
       },
       {
         "name": "Té helado",
         "price": 1.5,
         "description": "Té frío y refrescante.",
         "ingredients": "Té, agua, hielo y endulzante.",
-        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/tehelado.PNG"
       },
       {
         "name": "Limonada (limón)",
         "price": 1.25,
         "description": "Limonada fresca preparada al momento.",
         "ingredients": "Limón, agua y azúcar.",
-        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/limonada.PNG"
       },
       {
         "name": "Benefit",
         "price": 2.75,
         "description": "Elige limón con jengibre o limonada con café.",
         "ingredients": "Limón, jengibre y/o café según la opción.",
-        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"
+        "image": "./assets/benefit.PNG"
       }
     ]
   }
