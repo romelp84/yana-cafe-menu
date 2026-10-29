@@ -227,21 +227,21 @@ const MENU = [
         "price": 2.25,
         "description": "Infusión frutal con notas dulces y ácidas.",
         "ingredients": "Mezcla de frutos rojos y agua caliente.",
-        "image": "./assets/infusion-frutos-rojos.PNG"
+        "image": "./assets/infusion-frutos-rojos.png"
       },
       {
         "name": "Frutos cítricos",
         "price": 2.25,
         "description": "Aroma cítrico y sabor refrescante.",
         "ingredients": "Mezcla de frutas cítricas y agua caliente.",
-        "image": "./assets/infusion-frutos-citricos.PNG"
+        "image": "./assets/infusion-frutos-citricos.png"
       },
       {
         "name": "Frutos tropicales",
         "price": 2.25,
         "description": "Infusión aromática de perfil tropical.",
         "ingredients": "Mezcla de frutas tropicales y agua caliente.",
-        "image": "./assets/infusion-frutos-citricos.PNG"
+        "image": "./assets/infusion-frutos-citricos.png"
       }
     ]
   },
