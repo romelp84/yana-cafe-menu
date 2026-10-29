@@ -11,7 +11,7 @@ const MENU = [
         "price": 1.5,
         "description": "Un café corto, intenso y aromático.",
         "ingredients": "Café espresso.",
-        "image": "asstes/espresso.png"
+        "image": "assets/espresso.png"
       },
       {
         "name": "Espresso doble",
